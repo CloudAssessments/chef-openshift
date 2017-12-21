@@ -1,0 +1,18 @@
+DEPENDENCIES
+  cookbook-openshift3
+    path: .
+    metadata: true
+  iptables
+  selinux_policy
+  yum
+
+GRAPH
+  compat_resource (12.19.0)
+  cookbook-openshift3 (1.10.67)
+    iptables (>= 1.0.0)
+    selinux_policy (>= 0.0.0)
+    yum (>= 3.6.1)
+  iptables (4.3.1)
+  selinux_policy (2.0.1)
+    compat_resource (>= 12.16.3)
+  yum (5.1.0)
