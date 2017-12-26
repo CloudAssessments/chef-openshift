@@ -1,5 +1,5 @@
 #!/bin/bash
 cp solo.rb openshift.json /root
-berks vendor ../
 cd /root
+git clone https://github.com/chef-cookbooks/yum.git
 chef-solo -c solo.rb -j openshift.json
