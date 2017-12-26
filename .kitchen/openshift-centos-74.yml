@@ -1,6 +1,6 @@
 ---
 hostname: 127.0.0.1
-port: '2203'
+port: '2222'
 username: vagrant
 ssh_key: "/User/Josh/LinuxAcademySource/chef-openshift/.kitchen/kitchen-vagrant/openshift-centos-74/.vagrant/machines/default/virtualbox/private_key"
 last_action: create
